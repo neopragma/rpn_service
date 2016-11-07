@@ -14,11 +14,11 @@ rvm:
 branches:
   only: master
 
-sudo: required
+#sudo: required
+
+before_script:
+  - ruby rpn_service.rb
 
 install:
   - bundle install
-
-after_deploy:
-  - ruby rpn_service.rb
 
