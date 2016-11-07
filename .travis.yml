@@ -22,3 +22,6 @@ before_script:
 install:
   - bundle install
 
+after_script:
+  - kill `cat rpn_service.pid`
+

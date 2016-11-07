@@ -8,6 +8,8 @@ include RPN
 
 configure do
   set :port, '3000'
+  puts "Webrick pid is #{Process.pid}"
+  File.open('rpn_service.pid', 'w') {|f| f.write Process.pid}
 end
 
 get '/' do
