@@ -19,3 +19,6 @@ sudo: required
 install:
   - bundle install
 
+after_deploy:
+  - ruby rpn_service.rb
+
