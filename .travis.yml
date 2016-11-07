@@ -22,6 +22,7 @@ before_script:
 install:
   - bundle install
 
-after_script:
+script:
+  - rake
   - kill `cat rpn_service.pid`
 
