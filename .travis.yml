@@ -17,6 +17,5 @@ branches:
 sudo: required
 
 install:
-  - ./setup
   - bundle install
 
