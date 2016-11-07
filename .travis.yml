@@ -1,0 +1,20 @@
+# travis-ci config file for rpn_service
+
+notifications:
+  email:
+    recipients:
+      - davenicolette@gmail.com
+    on_success: change
+    on_failure: change
+
+language: ruby
+  rvm:
+    - 2.2
+
+branches:
+  only: master
+
+install:
+  - setup
+  - bundle install
+

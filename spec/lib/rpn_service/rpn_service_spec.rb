@@ -16,6 +16,12 @@ describe 'RPN Calculator Service' do
       .to eq '12.0'
   end
 
+  it "evaluates an expression containing a url-encoded modulo operator (percent sign)" do
+    response = RestClient.get 'http://localhost:3000/calc/16/2/%25'
+    expect(JSON.parse(response)['rpn']['result'])
+      .to eq '0.0'
+  end
+
   it "returns 'invalid input' when it gets confused" do
     response = RestClient.get 'http://localhost:3000/calc/2/-/2/+'
     expect(JSON.parse(response)['rpn']['result'])
