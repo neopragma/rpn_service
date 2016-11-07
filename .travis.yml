@@ -8,8 +8,8 @@ notifications:
     on_failure: change
 
 language: ruby
-  rvm:
-    - 2.2
+rvm:
+  - 2.2
 
 branches:
   only: master
