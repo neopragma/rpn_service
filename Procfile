@@ -1,1 +1,1 @@
-web: ruby rpn_service.rb -p 80
+web: ruby rpn_service.rb -p 3000
