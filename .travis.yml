@@ -14,8 +14,6 @@ rvm:
 branches:
   only: master
 
-#sudo: required
-
 install:
   - bundle install
 
