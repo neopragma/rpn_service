@@ -7,7 +7,7 @@ require 'rpn_ruby'
 include RPN
 
 configure do
-  set :port, '3000'
+  set :port, ENV['PORT'] || '3000'
   puts "Webrick pid is #{Process.pid}"
   File.open('rpn_service.pid', 'w') {|f| f.write Process.pid}
 end
