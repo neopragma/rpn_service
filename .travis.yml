@@ -16,13 +16,11 @@ branches:
 
 #sudo: required
 
-before_script:
-  - ruby rpn_service.rb
-
 install:
   - bundle install
 
 script:
+  - ruby rpn_service.rb &
   - rake
   - kill `cat rpn_service.pid`
 
