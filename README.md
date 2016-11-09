@@ -1,5 +1,7 @@
 # rpn_service
 
+https://travis-ci.org/neopragma/rpn_service.svg?branch=master
+
 This is part of a toy project to explore different ways to package and deploy applications. It's a RESTful service wrapper around ```rpn_ruby```, a Reverse Polish Notation calculator.
 
 ## Local testing
