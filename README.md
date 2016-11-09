@@ -1,6 +1,6 @@
-# rpn_service
+[![Build Status](https://travis-ci.org/neopragma/rpn-service.png)](https://travis-ci.org/neopragma/rpn-service)
 
-https://travis-ci.org/neopragma/rpn_service.svg?branch=master
+# rpn_service
 
 This is part of a toy project to explore different ways to package and deploy applications. It's a RESTful service wrapper around ```rpn_ruby```, a Reverse Polish Notation calculator.
 
