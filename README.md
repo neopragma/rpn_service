@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/neopragma/rpn-service.png)](https://travis-ci.org/neopragma/rpn-service)
+[![Build Status](https://travis-ci.org/neopragma/rpn_service.svg?branch=master)](https://travis-ci.org/neopragma/rpn_service)
 
 # rpn_service
 
